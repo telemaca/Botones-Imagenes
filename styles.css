@@ -82,7 +82,7 @@ button {
 }
 
 .text-button2 {
-    transition: .3s;
+    transition: .2s;
 }
 
 .button-container:hover .hover-effect {
@@ -95,8 +95,7 @@ button {
 }
 
 .button-container:hover .text-button2 {
-    position: relative;
-    top: 35px;
+    transform: translateY(30px);
 }
 
 .fa-folder-open {
@@ -202,7 +201,8 @@ figure:hover .figcaption1 > .caption-info {
 
 .figcaption3 > .caption-info {
     position: absolute;
-    right: -30px;
+    right: 10px;
+    width: 60%;
 }
 
 figure:hover .img1 {
