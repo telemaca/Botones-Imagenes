@@ -72,8 +72,15 @@ button {
     justify-content: center;
     align-items: center;
     transition: .4s; 
-    position: absolute;
+    position: absolute;    
+}
+
+.hover-effect0 {
     top: -50px;
+}
+
+.hover-effect2 {
+    transform: skew(20deg, 70deg);
 }
 
 .icon-btn {
@@ -85,11 +92,14 @@ button {
     transition: .2s;
 }
 
-.button-container:hover .hover-effect {
+.button-container:hover .hover-effect0 {
     position: absolute;
     top: 0;    
 }
 
+.button-container:hover .hover-effect2 {
+    transform: skew(0);    
+}
 .button-container:hover .button1 {
     color: royalblue;
 }
